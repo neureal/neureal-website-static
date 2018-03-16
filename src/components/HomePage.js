@@ -35,7 +35,7 @@ export default class HomePage extends Component {
             </div>
 
             <div className="column column__two-thirds">
-                <img  src={require( '../images/team/wil.jpg')} alt="" className="content__image" />
+                <img  src={require( '../images/Comp_1.gif')} alt="" className="content__image" />
             </div>
         </div>
 
