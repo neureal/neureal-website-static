@@ -109,9 +109,6 @@ export default class HomePage extends Component {
         </div>
         <div className="grid">
             <div className='video-container'>
-                <video className='video-neureal' controls>
-                    <source src={require( '../images/neureal-video.mp4')} type="video/mp4" /> Your browser does not support the video tag.
-                </video>
             </div>
         </div>
         <LearnMore />
