@@ -109,7 +109,7 @@ export default class HomePage extends Component {
         </div>
         <div className="grid">
             <div className='video-container'>
-                <iframe src="https://www.youtube.com/embed/pmpJKYL_nSk?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allow="encrypted-media" allowfullscreen></iframe>
+                <iframe width="100%" height="100%" src="https://www.youtube.com/embed/pmpJKYL_nSk?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allow="encrypted-media" allowfullscreen></iframe>
             </div>
         </div>
         <LearnMore />
