@@ -43,7 +43,7 @@ export default class MobileNav extends Component {
     </a>
     </Link>
     <ul className='menu'>
-      <Link to='/blog-1' onClick={ this.closeMenu.bind(this) }>
+      <Link to='/blog' onClick={ this.closeMenu.bind(this) }>
       <li>
         <a>Blog</a>
       </li>

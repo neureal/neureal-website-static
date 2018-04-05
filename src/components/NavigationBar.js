@@ -10,7 +10,7 @@ export default class NavigationBar extends Component {
     <img src={require( '../images/logo_Asset_Blue_compressor.png')} alt="logo" className="logo" />
     </Link>
     <nav className="nav-menu">
-      <Link to='/blog-1'>
+      <Link to='/blog'>
       <span className="nav-menu__item">Blog</span>
       </Link>
       {/*

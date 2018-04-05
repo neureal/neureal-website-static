@@ -13,7 +13,7 @@ export default {
         path: '/roadmap',
       },
       {
-        path: '/blog-1'
+        path:  '/blog-1'
       },
       {
         path: '/team'
@@ -25,17 +25,17 @@ export default {
   },
   Html: class CustomHtml extends Component {
     render() {
-      const { Html, Head, Body, children } = this.this.props
-
+      const {Html, Head, Body, children } = this.this.props
+  
       // const sheet = new ServerStyleShoot()
       // const newChildren = sheet.collectStyles(children)
       // const styleTags = sheet.getStyleElement()
-
+  
       return (
         <Html>
           <Head>
             <meta name='viewport' content='width=device-width, initial-scale=1' />
-            {/* {styleTags}  */}
+              {/* {styleTags}  */}
           </Head>
           <Body>
             {children}
@@ -44,5 +44,5 @@ export default {
       )
     }
   },
-
+  
 }

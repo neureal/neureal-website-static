@@ -19,7 +19,7 @@ export default class BlogPosts extends Component {
     <div className='blog-post-container'>
       <div className='column__post'>
         <div className='image-blog-container'>
-          <img className='img-main-blog' src={require( '../../images/neureal_background_final.jpg')}  alt="blog post" />
+          <img className='img-main-blog' src="https://image.ibb.co/h7KyS7/main_banner_compressor.jpg" alt="blog post" />
         </div>
       </div>
 
