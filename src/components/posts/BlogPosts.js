@@ -126,7 +126,7 @@ export default class BlogPosts extends Component {
             telegram.
             <br/>
             <br/>
-            <a className='link-underline' href="https://t.co/UiTeDbNd2i" data-href="https://t.co/UiTeDbNd2i">Please join our Telegram community!</a>
+            <a className='link-underline' href="https://t.me/joinchat/C8JtFgzGzcsN_tjxoYBH1A" data-href="https://t.me/joinchat/C8JtFgzGzcsN_tjxoYBH1A">Please join our Telegram community!</a>
             <br/>
             <br/>
             

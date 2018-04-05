@@ -27,7 +27,7 @@ export default class Footer extends Component {
       <a className='twi-footer ion-social-twitter' href="https://twitter.com/neurealai" target="_blank"></a>
       <a className='lnk-footer ion-social-linkedin' href="https://www.linkedin.com/company/neureal/" target="_blank"></a>
       <a className='you-footer ion-social-youtube' href="https://www.youtube.com/channel/UCkebLOaWk9vplZ6ZWLcbvtA" target="_blank"></a>
-      <a href="https://t.co/UiTeDbNd2i"  target="_blank">
+      <a href="https://t.me/joinchat/C8JtFgzGzcsN_tjxoYBH1A"  target="_blank">
             <img className='telegram-logo-footer' src={require( '../images/icons8-telegram-app-512.png')} alt="" />
           </a>
     </div>
