@@ -1,7 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { HashRouter, Router } from "react-router-dom";;
-
+import { HashRouter, Router } from "react-router-dom";
 // Your top level component
 import App from './App'
 
@@ -22,3 +21,4 @@ if (typeof document !== 'undefined') {
   // Render!
   render(App)
 }
+

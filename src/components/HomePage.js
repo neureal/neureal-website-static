@@ -50,7 +50,12 @@ export default class HomePage extends Component {
                 <div className='info-box-container'>
                     <div className='.column-half'>
                         <div className='info-subtitle-flex'>
-                            <a className='info-icon  ion-android-locate ' />
+                            <img 
+                            className='info-icon'
+                            src={require( '../images/icons/android-locate.svg')}
+                            fill="white"
+                            alt="github"
+                            />
                             <h1 className="content__title">Accuracy</h1>
                         </div>
                         <p className="content__paragraph">Prediction is worthless without accuracy. Our ability to harness compute via blockchain technology,
@@ -64,7 +69,12 @@ export default class HomePage extends Component {
                 <div className='info-box-container'>
                     <div className='.column-half'>
                         <div className='info-subtitle-flex'>
-                            <a className='info-icon  ion-android-checkbox-outline ' />
+                        <img 
+                            className='info-icon'
+                            src={require( '../images/icons/android-checkbox-outline.svg')}
+                            fill="white"
+                            alt="github"
+                            />
                             <h1 className="content__title">Proven</h1>
                         </div>
                         <p className="content__paragraph">Folding@home + Bitcoin. Community is far more powerful than individual effort, whether measured inside
@@ -79,7 +89,12 @@ export default class HomePage extends Component {
                     <div className='info-box-container'>
                         <div className='.column-half'>
                             <div className='info-subtitle-flex'>
-                                <a className='info-icon  ion-card' />
+                            <img 
+                            className='info-icon-card'
+                            src={require( '../images/icons/card.svg')}
+                            fill="white"
+                            alt="github"
+                            />
                                 <h1 className="content__title">Incentivized</h1>
                             </div>
                             <p className="content__paragraph">Adding the ability to pay and get paid within an open-source governance incentivizes and rewards

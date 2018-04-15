@@ -1,10 +1,88 @@
-@import url("https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css");
-@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,500');
-@font-face {
-    font-family: myFirstFont;
-    src: url(https://gist.github.com/orangtanah/495dfd86de9118c52007de078cf66249.js);
+
+.email-nav-margin {
+    margin-right: 10px;
+}
+.social-icons {
+    color: white;
+    fill: white;
+    margin: 7.5px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 8.5px;
+    height: 20px;
+    cursor: pointer;
+}
+.social-icons-mobile {
+    color: #fff;
+    font-size: 30px;
+    margin: 7.5px;
+    margin-left: 4px;
+    margin-right: 4px;
+    height: 30px;
+}
+.email-nav{
+    color: #fff;
+    font-size: 30px;
+    margin-right: 2px;
+    margin-top: 10px;
+    height: 20px;
+}
+.telegram-logo {
+    display: inline-block;
+    height: 22px;
+    transform-origin: 50% 50%;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 8.5px;
+}
+.telegram-icon-mobile {
+    display: inline-block;
+    height: 100%;
+    width: 30px;
+    transform-origin: 50% 50%;
+    margin: 7.5px;
+    margin-left: 5px;
+    margin-right: 5px;
 }
 
+.social-icons-footer {
+    color: #fff;
+    height: 35px;
+    margin: 7.5px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.telegram-logo-footer {
+    width: 35px;
+    height: 35px;
+    margin: 7.5px;
+    margin-left: 20px;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    font-style: light;
+    font-weight: 300;
+    src: local('Montserrat'),
+         url('./images/fonts/Montserrat-Light.ttf') format('ttf'), 
+  }
+  @font-face {
+    font-family: 'Montserrat';
+    font-style: regular;
+    font-weight: 400;
+    src: local('Montserrat'),
+         url('./images/fonts/Montserrat-Regular.ttf') format('ttf'), 
+  }
+  @font-face {
+    font-family: 'Montserrat';
+    font-style: medium;
+    font-weight: 500;
+    src: local('Montserrat'),
+         url('./images/fonts/Montserrat-Medium.ttf') format('ttf'), 
+  }
 @-webkit-keyframes subtleFade {
     from {
         top: -300px;
@@ -49,7 +127,6 @@ body {
     position: absolute;
     /*important*/
     bottom: 0;
-    /*its super important to set all the position to 0*/
     left: 0;
     right: 0;
     top: 0;
@@ -84,7 +161,6 @@ body {
 .main {
     width: 100%;
     height: 100%;
-    /* background: #0097cb; */
     padding: 85px 20px;
     padding-bottom: 200px;
 }
@@ -100,7 +176,6 @@ body {
     flex-wrap: wrap;
     width: 100%;
     height: 100%;
-    /* background: #0097cb; */
     padding: 85px 20px;
 }
 
@@ -1070,184 +1145,15 @@ padding-left: 10px;
     box-shadow: 2px 3px 7.5px rgba(0, 0, 0, 0.093);
 }
 
-.ion-email {
-    color: #fff;
-    font-size: 20px;
-    padding: 7.5px;
-    padding-left: 12.5px;
-    padding-right: 5px;
-}
-
-.git-nav {
-    color: #fff;
-    font-size: 20px;
-    padding: 7.5px;
-    padding-left: 12.5px;
-    padding-right: 12.5px;
-}
-
-.fb-nav {
-    color: #fff;
-    font-size: 20px;
-    padding: 7.5px;
-    padding-left: 12.5px;
-    padding-right: 12.5px;
-}
-
-.rdt-nav {
-    color: #fff;
-    font-size: 20px;
-    padding: 7.5px;
-    padding-left: 12.5px;
-    padding-right: 12.5px;
-}
-
-.twi-nav {
-    color: #fff;
-    font-size: 20px;
-    padding: 7.5px;
-    padding-left: 12.5px;
-    padding-right: 12.5px;
-}
-
-.lnk-nav {
-    color: #fff;
-    font-size: 20px;
-    padding: 7.5px;
-    padding-left: 12.5px;
-    padding-right: 12.5px;
-}
-
-.you-nav {
-    color: #fff;
-    font-size: 20px;
-    padding: 7.5px;
-    padding-left: 12.5px;
-    padding-right: 12.5px;
-}
-
-.git-mob {
-    color: #fff;
-    font-size: 30px;
-    padding: 7.5px;
-    padding-left: 7.5px;
-    padding-right: 7.5px;
-}
-
-.fb-mob {
-    color: #fff;
-    font-size: 30px;
-    padding: 7.5px;
-    padding-left: 7.5px;
-    padding-right: 7.5px;
-}
-
-.rdt-mob {
-    color: #fff;
-    font-size: 30px;
-    padding: 7.5px;
-    padding-left: 7.5px;
-    padding-right: 7.5px;
-}
-
-.twi-mob {
-    color: #fff;
-    font-size: 30px;
-    padding: 7.5px;
-    padding-left: 7.5px;
-    padding-right: 7.5px;
-}
-
-.lnk-mob {
-    color: #fff;
-    font-size: 30px;
-    padding: 7.5px;
-    padding-left: 7.5px;
-    padding-right: 7.5px;
-}
-
-.you-mob {
-    color: #fff;
-    font-size: 30px;
-    padding: 7.5px;
-    padding-left: 7.5px;
-    padding-right: 7.5px;
-}
-
-.telegram-logo {
-    width: 25px;
-    height: 25px;
-    margin-top: 7.5px;
-    margin-left: 5px;
-    margin-right: 5px;
-    cursor: pointer;
-}
-
-.git-footer {
-    color: #fff;
-    font-size: 35px;
-    padding: 7.5px;
-    padding-left: 20px;
-    padding-right: 20px;
-}
-
-.fb-footer {
-    color: #fff;
-    font-size: 35px;
-    padding: 7.5px;
-    padding-left: 20px;
-    padding-right: 20px;
-}
-
-.rdt-footer {
-    color: #fff;
-    font-size: 35px;
-    padding: 7.5px;
-    padding-left: 20px;
-    padding-right: 20px;
-}
-
-.twi-footer {
-    color: #fff;
-    font-size: 35px;
-    padding: 7.5px;
-    padding-left: 20px;
-    padding-right: 20px;
-}
-
-.lnk-footer {
-    color: #fff;
-    font-size: 35px;
-    padding: 7.5px;
-    padding-left: 20px;
-    padding-right: 20px;
-}
-
-.you-footer {
-    color: #fff;
-    font-size: 35px;
-    padding: 7.5px;
-    padding-left: 20px;
-    padding-right: 20px;
-}
-
-.telegram-logo-footer {
-    width: 35px;
-    height: 35px;
-    margin-top: 12px;
-    margin-left: 5px;
-    margin-right: 5px;
-    cursor: pointer;
-}
-
 .info-icon {
-    /* background: linear-gradient(#f2d938,  #f2c223); */
-    color: #00a8e1;
-    font-size: 28px;
-    /* padding: 7.5px; */
-    /* padding-left: 12.5px; */
-    padding-right: 10px;
-    padding-top: 16px;
+    height: 28px;
+    margin-right: 10px;
+    margin-top: 16px;
+}
+.info-icon-card {
+    height: 28px;
+    margin-right: 10px;
+    margin-top: 18px;
 }
 
 /* ========================================================================== */
@@ -2561,54 +2467,20 @@ border-radius: 50%; */
 }
 
 @media (max-width: 500px) {
-    .git-footer {
+    .social-icons-footer {
         color: #fff;
-        font-size: 25px;
-        padding: 7.5px;
-        padding-left: 20px;
-        padding-right: 20px;
+        height: 25px;
+        margin: 7.5px;
+        margin-left: 10px;
+        margin-right: 10px;
     }
-    .fb-footer {
-        color: #fff;
-        font-size: 25px;
-        padding: 7.5px;
-        padding-left: 20px;
-        padding-right: 20px;
-    }
-    .rdt-footer {
-        color: #fff;
-        font-size: 25px;
-        padding: 7.5px;
-        padding-left: 20px;
-        padding-right: 20px;
-    }
-    .twi-footer {
-        color: #fff;
-        font-size: 25px;
-        padding: 7.5px;
-        padding-left: 20px;
-        padding-right: 20px;
-    }
-    .lnk-footer {
-        color: #fff;
-        font-size: 25px;
-        padding: 7.5px;
-        padding-left: 20px;
-        padding-right: 20px;
-    }
-    .you-footer {
-        color: #fff;
-        font-size: 25px;
-        padding: 7.5px;
-        padding-left: 20px;
-        padding-right: 20px;
-    }
+    
     .telegram-logo-footer {
         width: 25px;
         height: 25px;
-        margin-top: 3px;
-        margin-left: 5px;
-        margin-right: 5px;
+        margin: 7.5px;
+        margin-left: 10px;
+        margin-right: 10px;
         cursor: pointer;
     }
     .news-caption {
@@ -2646,8 +2518,8 @@ border-radius: 50%; */
         /* Half the height */
         margin-left: -165px;
         box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.072);
-        -webkit-animation-name: subtleFade;
-        -webkit-animation-duration: 0.55s;
+        /* -webkit-animation-name: subtleFade;
+        -webkit-animation-duration: 0.55s; */
         animation-name: none;
         animation-duration: 0.55s;
         overflow-y: scroll;
@@ -2914,12 +2786,5 @@ border-radius: 50%; */
         padding: 7.5px;
         padding-left: 13px;
         padding-right: 13px;
-    }
-    .telegram-logo-footer {
-        width: 25px;
-        height: 25px;
-        margin-top: 3px;
-        margin-left: 5px;
-        margin-right: 5px;
     }
 }

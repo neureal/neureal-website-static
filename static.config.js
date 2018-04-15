@@ -3,6 +3,17 @@
 import React, { Component } from 'react';
 
 export default {
+    Document: ({ Html, Head, Body, children, siteData, renderMeta }) => (
+      <Html lang="en-US">
+        <Head>
+          <meta charSet="UTF-8" />
+          <meta name="viewport" content="width=device-width, initial-scale=1" />
+          <link rel="shortcut icon" href="./favicon-32-32.svg" />
+        </Head>
+        <Body>{children}</Body>
+      </Html>
+    ),
+
 
   getRoutes: async () => {
     return [
@@ -23,26 +34,4 @@ export default {
       },
     ]
   },
-  Html: class CustomHtml extends Component {
-    render() {
-      const {Html, Head, Body, children } = this.this.props
-  
-      // const sheet = new ServerStyleShoot()
-      // const newChildren = sheet.collectStyles(children)
-      // const styleTags = sheet.getStyleElement()
-  
-      return (
-        <Html>
-          <Head>
-            <meta name='viewport' content='width=device-width, initial-scale=1' />
-              {/* {styleTags}  */}
-          </Head>
-          <Body>
-            {children}
-          </Body>
-        </Html>
-      )
-    }
-  },
-  
 }

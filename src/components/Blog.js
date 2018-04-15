@@ -90,6 +90,15 @@ export default class Blog extends Component {
     blogDate={'April 4, 2018'}
     />
     </Link>
+    <Link to='/blockchain-5-years'>
+    <SecondaryBlog
+    blogImage={'https://image.ibb.co/f1hmUx/blockchain_5_years.png'}
+    blogTitle={'Blockchain. 5 Years From Now.'}
+    blogCaption={'I had an interviewer ask me where I thought Ethereum was going...'}
+    author={'Jen Greyson'}
+    blogDate={'April 11, 2018'}
+    />
+    </Link>
     {/* <Link to='/how-to-tell'>
     <SecondaryBlog
     blogImage={'https://image.ibb.co/dwofPn/Round_1_Blogs_06.png'}
