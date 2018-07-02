@@ -75,8 +75,8 @@ export default class BlogPost12 extends Component {
       That’s exactly what blockchain brings to AI: an open marketplace for global collaboration in artificial intelligence. With technology this revolutionary and powerful, its evolution ought to be a worldwide endeavor.
       <br/>
         <br/> To discover how Neureal is using blockchain to create a global marketplace for AI, follow us here: 
-        <a className='link-underline' href=" https://t.me/joinchat/C8JtFkMMkD2O6skOEaFn7Q" data-href=" https://t.me/joinchat/C8JtFkMMkD2O6skOEaFn7Q">
-          https://t.me/joinchat/C8JtFkMMkD2O6skOEaFn7Q</a>
+        <a className='link-underline' href=" https://t.me/joinchat/C8JtFkMMkD3nbZY_MMPAaA" data-href=" https://t.me/joinchat/C8JtFkMMkD3nbZY_MMPAaA">
+          https://t.me/joinchat/C8JtFkMMkD3nbZY_MMPAaA</a>
 
         <div className='creator-blog'>
         </div>

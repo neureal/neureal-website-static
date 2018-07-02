@@ -67,7 +67,7 @@ const SocialBar = () => {
               alt="youtube"
              />
               </a>
-             <a href="https://t.me/joinchat/C8JtFkMMkD2O6skOEaFn7Q" target="_blank">
+             <a href="https://t.me/joinchat/C8JtFkMMkD3nbZY_MMPAaA" target="_blank">
              <img 
              className='telegram-logo' 
              src={require( '../images/icons8-telegram-app-512.png')}
