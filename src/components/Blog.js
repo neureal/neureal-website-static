@@ -7,6 +7,7 @@ export default class Blog extends Component {
     return (
 <div>
   <div className="content">
+  {/* 
     <Link to='/what-is-neureal'>
     <div className='blog-header-container'>
       <div className='blog-column__two-thirds'>
@@ -26,6 +27,7 @@ export default class Blog extends Component {
       </div>
     </div>
     </Link>
+     */}
     <div className='blog-secondary-grid-container'>
     <Link to='/blockchain-vs-bitcoin'>
     <SecondaryBlog
