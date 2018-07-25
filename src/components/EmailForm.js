@@ -21,7 +21,7 @@ state = {
       <input className='subscribe-input' placeholder="Full Name" type="text" name="name" id="name" />
     </label>
 
-    <div style="display:none;">
+    <div style={{display: 'none'}}>
     <label for="hp">HP</label><br/>
     <input type="text" name="hp" id="hp"/>
     </div>
