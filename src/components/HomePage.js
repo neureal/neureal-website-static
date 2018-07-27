@@ -13,7 +13,7 @@ export default class HomePage extends Component {
             <div className="column column__one-third">
                 <h1 className="content__title">What is Neureal?</h1>
                 <p className="content__paragraph">
-                    A limitless ability to forecast the future.
+                    A limitless ability to see the future.
                     <br/>
                     <br/> That may seem a wild boast, but the nascent technologies of blockchain and end-to-end learning truly
                     gives rise to endless possibilities that can be applied across nearly every industry, from NOAA to Lyft.
