@@ -108,7 +108,7 @@ export default class HomePage extends Component {
         </div>
 
         <div className='column'>
-            <h1 className="as-seen-caption">AS SEEN IN</h1>
+            <h1 className="as-seen-caption">As Seen In</h1>
 
             <div className='as-seen-container'>
                 <img className='as-seen-image' src={require( '../images/medium_compressor.png')} alt="Medium" />
@@ -122,11 +122,11 @@ export default class HomePage extends Component {
                 <img className='as-seen-image' src={require( '../images/decentral_market_compressor.png')} alt="DecentralMarket" />
                 <img className='as-seen-image' src={require( '../images/cryptoknight_compressor.jpg')} alt="CryptoKnights" />
             </div>
-            <h1 className="as-seen-caption">PARTNERS</h1>
+            <h1 className="as-seen-caption">Partners</h1>
 
             <div className='as-seen-container'>
-                <a href="https://scienceblockchains.com/"><img className='as-seen-image' src={require( '../images/medium_compressor.png')} alt="ScienceBlockchains" /></a>
-                <a href="https://maddevs.io/"><img className='as-seen-image' src={require( '../images/maddevs_compressor.png')} alt="MadDevs" /></a>
+                <a href="https://scienceblockchains.com/" target="_blank"><img className='as-seen-image' src={require( '../images/scienceb_compressor.jpg')} alt="ScienceBlockchains" /></a>
+                <a href="https://maddevs.io/" target="_blank"><img className='as-seen-image' src={require( '../images/maddevs_compressor.png')} alt="MadDevs" /></a>
             </div>
         </div>
         <div className="grid">

@@ -7,7 +7,7 @@ export default class NavigationBar extends Component {
 <div>
   <div className="navigation">
     <Link to='/'>
-    <img src={require( '../images/logo_Asset_Blue_compressor.png')} alt="logo" className="logo" />
+    <img src={require( '../images/logo_Asset_Blue_compressor.png')} alt="Neureal" className="logo" />
     </Link>
     <nav className="nav-menu">
       <Link to='/blog'>
@@ -16,9 +16,7 @@ export default class NavigationBar extends Component {
       {/*
       <span className="nav-menu__item">Transparency</span> */}
       <Link to='/team'>
-      <span className="nav-menu__item">
-       Team
-      </span>
+      <span className="nav-menu__item">Team</span>
       </Link>
 
       <Link to='/news'>

@@ -258,8 +258,8 @@ export default class Team extends Component {
               <div className='team-role'>Founder | Chief Architect</div>
             </div>
 
-            <div className='biography'>25+ years software engineer. Million Dollar Texas Bitcoin Conference hackathon winner. Coding contributor to
-              main fork Bitcoin. Bitcoin miner since 2011. Experience developing multi-million dollar software.</div>
+            <div className='biography'>25+ years software engineer. 2015 Million Dollar Texas Bitcoin Conference hackathon winner. Coding contributor to
+              main fork Bitcoin. Crypto miner since 2012. Experience developing multi-million dollar software.</div>
           </div>
 
           <div className='team-icon-container'>
