@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import TeamModal from './TeamModal';
-const jenImage = 'https://image.ibb.co/iWPucn/jen.jpg'
-const wilImage = 'https://image.ibb.co/k0iy3S/wil.jpg';
+const jenImage = require('../images/team/jen.jpg');
+const wilImage = require('../images/team/wil.jpg');
 const jordanImage = require('../images/team/jordan.jpg');
 const kylerImage = require('../images/team/kyler.jpg');
 const jamesImage = require('../images/team/james.jpg');
@@ -11,6 +11,8 @@ const brianSewImage = require('../images/team/brian_sewell.jpg');
 const ethanImage = require('../images/team/ethan.jpg');
 const jakeImage = require('../images/team/jake');
 const benImage = require('../images/team/ben.jpg');
+const samImage = require('../images/team/sam.jpg');
+const aleksanderImage = require('../images/team/aleksander.jpg');
 
 
 export default class Team extends Component {
@@ -27,6 +29,8 @@ export default class Team extends Component {
     openEthan: false,
     openJake: false,
     openBen: false,
+    openSam: false,
+    openAleksander: false,
    }
 
   clickOpenJen = () => {
@@ -97,6 +101,18 @@ export default class Team extends Component {
     })
   }
 
+  clickOpenSam = () => {
+    this.setState({
+      openSam: !this.state.openSam
+    })
+  }
+
+  clickOpenAleksander = () => {
+    this.setState({
+      openAleksander: !this.state.openAleksander
+    })
+  }
+
 
   render() {
     return (
@@ -106,7 +122,7 @@ export default class Team extends Component {
   onClose={this.clickOpenJen} 
   clickOpen={ this.state.openJen } 
   nameModal={ 'Jen Greyson'} 
-  roleModal={ 'CEO'} 
+  roleModal={ 'Advisor'} 
   biographyModal={  'Prior to being named one of the Top 8 Women in Crypto, Jen managed a multi-million dollar life insurance company during a highly lucrative and chaotic run-up of the industry, as well as managing morale, forecasting, and finances during the impacts of AIG’s multi-billion dollar crash, giving her a unique comfort level of leading from within the volatility of cryptocurrency. With over two decades of experience building and maintaining entrepreneurial organisms, from startups to established partnerships in numerous industries, her involvement at the onset of new development has repeatedly generated millions to bottom line. For the last decade, she specialized in intellectual property, working intimately with both NYT bestselling clients as well as smaller first-time movers into the publishing space to create, systematize, and deploy new income streams. Clients include New York Times and USA Today bestselling thriller, mystery, and fantasy writers, as well as international speakers, business coaches, and serial entre- preneurs. Her chaos management strategies identify and implement systems to enable the structures to exist beyond her involvement, ensuring their continued success is not based on singular individuals, but as a whole. Systems are everything. Strategic decisions are everything else. Nothing works without community'} 
   imageModal={jenImage} 
   />
@@ -202,6 +218,24 @@ export default class Team extends Component {
   imageModal={benImage} 
   />
 
+  <TeamModal 
+  onClose={this.clickOpenSam} 
+  clickOpen={ this.state.openSam } 
+  nameModal={ 'Samuel M. Smith, PhD'} 
+  roleModal={ 'AI Expert | Researcher | Developer'} 
+  biographyModal={  "Proven researcher in artificial intelligence, automated reasoning, and intelligent control. My greatest strength is a comprehensivist approach to intelligent systems design. I was a pioneer in the development of reinforcement learning algorithms for optimization. Early in my career I was responsible for the multi-disciplinary design of autonomous underwater vehicle systems. Thus I learned to see systems holistically. The more complex the problem, the greater my relative ability to solve it. I am also an avid disciple of Lean Startup methodologies with extensive experience running businesses as an entrepreneur and intrapreneur. Inside the university I supervised 20 engineers and a dozen graduate students and an annual budget of over $ 2 million. I have founded two different companies. My passion is finding solutions that benefit from computational intelligence. I have also been actively involved in open source software development. I am the originator of Ioflo, an open source flow based programming framework. I am the architect of OpenReputation.net, a blockchain based reputation system. I am also the designer and primary developer of RAET (Reliable Asynchronous Event Transport) protocol which are at the core of the new SaltStack. I was also the chair of the CEA working group on the ANSI/EIA 852.1 network protocol standard and a major contributor to both the ANSI/EIA 852 and 709.x protocols. I have over 25 years experience in a variety of disciplines including computational intelligence, machine learning, network automation, autonomic systems, cloud based computing, intelligent control, embedded systems design, autonomous vehicles and blockchain technology. I have over 120 publications in the fields of intelligent control, survivable network automation, autonomous systems, simulation, computational search, and expert systems, including seven book chapters, 20 journal papers, and 100 refereed conference papers."} 
+  imageModal={samImage} 
+  />
+
+  <TeamModal 
+  onClose={this.clickOpenAleksander} 
+  clickOpen={ this.state.openAleksander } 
+  nameModal={ 'Aleksander Sobolev'} 
+  roleModal={ 'Software Engineer'} 
+  biographyModal={  "Detail-oriented software engineer with 6+ years' success devising innovative and tailored solutions to meet ever-changing business requirements within diverse industries. Advanced skill with leading-edge programming tools complemented by proven ability to assimilate and rapidly utilize emerging technologies. Aleksander is passionate by blockchain and artificial intelligence projects. He believes that Neureal is going to be a tech revolution, it will open a lot of new possibilities in the AI world."} 
+  imageModal={aleksanderImage} 
+  />
+
 
 
 
@@ -214,6 +248,26 @@ export default class Team extends Component {
     <div className="column column__full">
       <div className='flex-team'>
 
+        <div className='team-box' onClick={ this.clickOpenWil } >
+          <div className='team-box-container'>
+            <div className='team-image-container'>
+              <img className='team-image' src={require( '../images/team/wil.jpg')} alt="team" />
+            </div>
+            <div className='name-title-container'>
+              <div className='team-name'>Wil Bown</div>
+              <div className='team-role'>Founder | Chief Architect</div>
+            </div>
+
+            <div className='biography'>25+ years software engineer. 2015 Million Dollar Texas Bitcoin Conference hackathon winner. Coding contributor to
+              main fork Bitcoin. Crypto miner since 2012. Experience developing multi-million dollar software.</div>
+          </div>
+
+          <div className='team-icon-container'>
+            <a className='lk ion-social-linkedin' href="https://www.linkedin.com/in/wilbown/" target="_blank"></a>
+          </div>
+
+        </div>
+
         <div className='team-box' onClick={ this.clickOpenJen } >
           <div className='team-box-container' type="button" value="Show Modal">
             <div className='team-image-container'>
@@ -221,7 +275,7 @@ export default class Team extends Component {
             </div>
             <div className='name-title-container'>
               <div className='team-name'>Jen Greyson</div>
-              <div className='team-role'>CEO</div>
+              <div className='team-role'>Advisor</div>
             </div>
 
             <div className='biography'>
@@ -235,26 +289,26 @@ export default class Team extends Component {
 
         </div>
 
-        <div className='team-box' onClick={ this.clickOpenWil } >
-          <div className='team-box-container'>
-            <div className='team-image-container'>
-              <img className='team-image' src={require( '../images/team/wil.jpg')} alt="team" />
-            </div>
-            <div className='name-title-container'>
-              <div className='team-name'>Wil Bown</div>
-              <div className='team-role'>Founder | Chief Architect</div>
-            </div>
-
-            <div className='biography'>25+ years software engineer. Million Dollar Texas Bitcoin Conference hackathon winner. Coding contributor to
-              main fork Bitcoin. Bitcoin miner since 2011. Experience developing multi-million dollar software.</div>
+        <div className='team-box' onClick={ this.clickOpenJake } >
+        <div className='team-box-container'>
+          <div className='team-image-container'>
+            <img className='team-image' src={require( '../images/team/jake')} alt="team" />
+          </div>
+          <div className='name-title-container'>
+            <div className='team-name'>Jake Wiser</div>
+            <div className='team-role'>Senior Strategic Planner at CureCoin</div>
           </div>
 
-          <div className='team-icon-container'>
-            <a className='lk ion-social-linkedin' href="https://www.linkedin.com/in/wil-bown-b68bb718/" target="_blank"></a>
-          </div>
+          <div className='biography'>Early adopter. Connector. Strategist. Heavy involvement in crypto projects founded in social and scientific good. Front-line educator.</div>
+        </div>
+
+        <div className='team-icon-container'>
+          <a className='lk ion-social-linkedin' href="https://www.linkedin.com/in/jakewiser/" target="_blank"></a>
+        </div>
 
         </div>
 
+{/* 
         <div className='team-box' onClick={ this.clickOpenJordan } >
           <div className='team-box-container'>
             <div className='team-image-container'>
@@ -274,7 +328,7 @@ export default class Team extends Component {
           </div>
 
         </div>
-
+ 
         <div className='team-box' onClick={ this.clickOpenKyler } >
           <div className='team-box-container'>
             <div className='team-image-container'>
@@ -294,6 +348,7 @@ export default class Team extends Component {
           </div>
 
         </div>
+*/}
 
         <div className='team-box' onClick={ this.clickOpenJames } >
           <div className='team-box-container'>
@@ -311,6 +366,25 @@ export default class Team extends Component {
 
           <div className='team-icon-container'>
             <a className='lk ion-social-linkedin' href="https://www.linkedin.com/in/jamesalton" target="_blank"></a>
+          </div>
+
+        </div>
+
+        <div className='team-box' onClick={ this.clickOpenAleksander } >
+          <div className='team-box-container'>
+            <div className='team-image-container'>
+              <img className='team-image' src={require( '../images/team/aleksander.jpg')} alt="team" />
+            </div>
+            <div className='name-title-container'>
+              <div className='team-name'>Aleksander Sobolev</div>
+              <div className='team-role'>Software Engineer</div>
+            </div>
+
+            <div className='biography'>6+ years software developer. Team Lead at Mad Devs. Passionated by blockchain and artificial intelligence projects.</div>
+          </div>
+
+          <div className='team-icon-container'>
+            <a className='lk ion-social-linkedin' href="https://www.linkedin.com/in/s0b0lev" target="_blank"></a>
           </div>
 
         </div>
@@ -333,21 +407,21 @@ export default class Team extends Component {
           </div>
         </div>
 
-        <div className='team-box' onClick={ this.clickOpenNick } >
+        <div className='team-box' onClick={ this.clickOpenEthan } >
           <div className='team-box-container'>
             <div className='team-image-container'>
-              <img className='team-image' src={require( '../images/team/nick.jpg')} alt="team" />
+              <img className='team-image' src={require( '../images/team/ethan.jpg')} alt="team" />
             </div>
             <div className='name-title-container'>
-              <div className='team-name'>Nick Baguley</div>
-              <div className='team-role'>Data Science | Contacts, Strategy</div>
+              <div className='team-name'>Ethan Erkiletian</div>
+              <div className='team-role'>Blockchain Educator | Advisor</div>
             </div>
 
-            <div className='biography'>Creator of a near-real time serverless architecture for the finance industry.</div>
+            <div className='biography'>Former radio talk show host, blockchain educator and advisor.</div>
           </div>
 
           <div className='team-icon-container'>
-            <a className='lk ion-social-linkedin' href="https://www.linkedin.com/in/nickbaguley/" target="_blank"></a>
+            <a className='lk ion-social-linkedin' href="https://www.linkedin.com/in/ethan-erkiletian-6674a275/" target="_blank"></a>
           </div>
 
         </div>
@@ -374,40 +448,21 @@ export default class Team extends Component {
 
         </div>
 
-        <div className='team-box' onClick={ this.clickOpenEthan } >
+        <div className='team-box' onClick={ this.clickOpenNick } >
           <div className='team-box-container'>
             <div className='team-image-container'>
-              <img className='team-image' src={require( '../images/team/ethan.jpg')} alt="team" />
+              <img className='team-image' src={require( '../images/team/nick.jpg')} alt="team" />
             </div>
             <div className='name-title-container'>
-              <div className='team-name'>Ethan Erkiletian</div>
-              <div className='team-role'>Blockchain Educator | Advisor</div>
+              <div className='team-name'>Nick Baguley</div>
+              <div className='team-role'>Data Science | Contacts, Strategy</div>
             </div>
 
-            <div className='biography'>Former radio talk show host, blockchain educator and advisor.</div>
+            <div className='biography'>Creator of a near-real time serverless architecture for the finance industry.</div>
           </div>
 
           <div className='team-icon-container'>
-            <a className='lk ion-social-linkedin' href="https://www.linkedin.com/in/ethan-erkiletian-6674a275/" target="_blank"></a>
-          </div>
-
-        </div>
-
-         <div className='team-box' onClick={ this.clickOpenJake } >
-          <div className='team-box-container'>
-            <div className='team-image-container'>
-              <img className='team-image' src={require( '../images/team/jake')} alt="team" />
-            </div>
-            <div className='name-title-container'>
-              <div className='team-name'>Jake Wiser</div>
-              <div className='team-role'>Senior Strategic Planner at CureCoin</div>
-            </div>
-
-            <div className='biography'>Early adopter. Connector. Strategist. Heavy involvement in crypto projects founded in social and scientific good. Front-line educator.</div>
-          </div>
-
-          <div className='team-icon-container'>
-            <a className='lk ion-social-linkedin' href="https://www.linkedin.com/in/jakewiser/" target="_blank"></a>
+            <a className='lk ion-social-linkedin' href="https://www.linkedin.com/in/nickbaguley/" target="_blank"></a>
           </div>
 
         </div>
@@ -427,6 +482,26 @@ export default class Team extends Component {
 
           <div className='team-icon-container'>
             <a className='lk ion-social-linkedin' href="https://www.linkedin.com/in/bentaylordata/" target="_blank"></a>
+          </div>
+
+        </div>
+        
+        <div className='team-box' onClick={ this.clickOpenSam } >
+          <div className='team-box-container'>
+            <div className='team-image-container'>
+              <img className='team-image' src={require( '../images/team/sam.jpg')} alt="team" />
+            </div>
+            <div className='name-title-container'>
+              <div className='team-name'>Samuel M. Smith, PhD</div>
+              <div className='team-role'>AI Expert | Researcher | Developer</div>
+            </div>
+
+            <div className='biography'>Comprehensivist approach to intelligent systems design. Author and Expert in Artificial Intelligence and Machine Learning for 25+ years.
+            Pioneer of reinforcement learning algorithms for optimization. Architect of several projects and protocols, including OpenReputation.net, Sovrin.org, Ioflo and RAET.</div>
+          </div>
+
+          <div className='team-icon-container'>
+            <a className='lk ion-social-linkedin' href="https://www.linkedin.com/in/samuel-m-smith-phd-4652751/" target="_blank"></a>
           </div>
 
         </div>

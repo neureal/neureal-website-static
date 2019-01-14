@@ -57,130 +57,121 @@ export default class News extends Component {
       newsCaption={"After a recent conversation on LinkedIn spurred my curiosity, I went looking at how the current spike of ETH would look for the ICOs of 2017"}
       /> */}
 
+</div>
+
+<div className='podcast-column'>
+
+  <h2 className='podcast-header'>Podcasts</h2>
+
+
+  <div className='podcast-container'>
+    <div className='podcast-post'>
+      <a href='https://onthebus.podbean.com/e/043-wil-brown-robots-virtual-reality-and-data-on-the-blockchain/' target="_blank">
+        <div className='news-detail-container'>
+          <div className='news-container-padding'>
+            <div className='podcast-author'>Brandon Reese & Daniel Blum</div>
+            <div className='podcast-detail-flex'>
+              <img className='social-icons' src={require( '../images/icons/headphone.svg')} fill="white" alt="reddit" />
+              <div className='podcast-title'>On The Bus Podcast</div>
+            </div>
+            <div className='learn-more-container'>
+            </div>
+          </div>
+        </div>
+      </a>
     </div>
-
-    <div className='podcast-column'>
-
-      <h2 className='podcast-header'>Podcasts</h2>
-
-      <div className='podcast-container'>
-        <div className='podcast-post'>
-          <a href='https://vimeo.com/227450398' target="_blank">
-            <div className='news-detail-container'>
-              <div className='news-container-padding'>
-                <div className='podcast-author'>Ernest Hancock</div>
-                <div className='podcast-detail-flex'>
-                  <a className='headphone ion-headphone' />
-                  <div className='podcast-title'>Hour 3</div>
-                </div>
-                <div className='learn-more-container'>
-                </div>
-              </div>
-            </div>
-          </a>
-        </div>
-      </div>
-
-      <div className='podcast-container'>
-        <div className='podcast-post'>
-          <a href='https://onthebus.podbean.com/e/043-wil-brown-robots-virtual-reality-and-data-on-the-blockchain/' target="_blank">
-            <div className='news-detail-container'>
-              <div className='news-container-padding'>
-                <div className='podcast-author'>Brandon Reese & Daniel Blum</div>
-                <div className='podcast-detail-flex'>
-                  <a className='headphone ion-headphone' />
-                  <div className='podcast-title'>On The Bus Podcast</div>
-                </div>
-                <div className='learn-more-container'>
-                </div>
-              </div>
-            </div>
-          </a>
-        </div>
-      </div>
-
-      <div className='podcast-container'>
-        <div className='podcast-post'>
-          <a href='http://alwaysthejourney.com/2017/12/08/always-the-journey-podcast-episode-no-2/' target="_blank">
-            <div className='news-detail-container'>
-              <div className='news-container-padding'>
-                <div className='podcast-author'>Jason Woodland</div>
-                <div className='podcast-detail-flex'>
-                  <a className='headphone ion-headphone' />
-                  <div className='podcast-title'>Always the Journey Podcast Episode No. 2</div>
-                </div>
-                <div className='learn-more-container'>
-                </div>
-              </div>
-            </div>
-          </a>
-        </div>
-      </div>
-
-      <div className='podcast-container'>
-        <div className='podcast-post'>
-          <a href='https://freecitiespodcast.libsyn.com/decentral-hub-and-d10e-recap' target="_blank">
-            <div className='news-detail-container'>
-              <div className='news-container-padding'>
-                <div className='podcast-author'>Anthoney</div>
-                <div className='podcast-detail-flex'>
-                  <a className='headphone ion-headphone' />
-                  <div className='podcast-title'>DeCentral Hub and D10e ReCap</div>
-                </div>
-                <div className='learn-more-container'>
-                </div>
-              </div>
-            </div>
-          </a>
-        </div>
-      </div>
-
-      <div className='podcast-container'>
-        <div className='podcast-post'>
-          <a href='https://www.youtube.com/watch?v=tZ2XKUoNtyc' target="_blank">
-            <div className='news-detail-container'>
-              <div className='news-container-padding'>
-                <div className='podcast-author'>Future Tech Podcast</div>
-                <div className='podcast-detail-flex'>
-                  <a className='headphone ion-headphone' />
-                  <div className='podcast-title'>Neureal Open-Source, Peer-to-Peer Predictive AI, Built on the Blockchain</div>
-                </div>
-                <div className='learn-more-container'>
-                </div>
-              </div>
-            </div>
-          </a>
-        </div>
-      </div>
-
-    </div>
-
-
-
   </div>
-  {/* <div className='video-column'>
+
+  <div className='podcast-container'>
+    <div className='podcast-post'>
+      <a href='http://alwaysthejourney.com/2017/12/08/always-the-journey-podcast-episode-no-2/' target="_blank">
+        <div className='news-detail-container'>
+          <div className='news-container-padding'>
+            <div className='podcast-author'>Jason Woodland</div>
+            <div className='podcast-detail-flex'>
+              <img className='social-icons' src={require( '../images/icons/headphone.svg')} fill="white" alt="reddit" />
+              <div className='podcast-title'>Always the Journey Podcast Episode No. 2</div>
+            </div>
+            <div className='learn-more-container'>
+            </div>
+          </div>
+        </div>
+      </a>
+    </div>
+  </div>
+
+  <div className='podcast-container'>
+    <div className='podcast-post'>
+      <a href='https://freecitiespodcast.libsyn.com/decentral-hub-and-d10e-recap' target="_blank">
+        <div className='news-detail-container'>
+          <div className='news-container-padding'>
+            <div className='podcast-author'>Anthoney</div>
+            <div className='podcast-detail-flex'>
+              <img className='social-icons' src={require( '../images/icons/headphone.svg')} fill="white" alt="reddit" />
+              <div className='podcast-title'>DeCentral Hub and D10e ReCap</div>
+            </div>
+            <div className='learn-more-container'>
+            </div>
+          </div>
+        </div>
+      </a>
+    </div>
+  </div>
+
+  <div className='podcast-container'>
+    <div className='podcast-post'>
+      <a href='https://www.youtube.com/watch?v=tZ2XKUoNtyc' target="_blank">
+        <div className='news-detail-container'>
+          <div className='news-container-padding'>
+            <div className='podcast-author'>Future Tech Podcast</div>
+            <div className='podcast-detail-flex'>
+              <img className='social-icons' src={require( '../images/icons/headphone.svg')} fill="white" alt="reddit" />
+              <div className='podcast-title'>Neureal Open-Source, Peer-to-Peer Predictive AI, Built on the Blockchain</div>
+            </div>
+            <div className='learn-more-container'>
+            </div>
+          </div>
+        </div>
+      </a>
+    </div>
+  </div>
+
+  <div className='podcast-container'>
+    <div className='podcast-post'>
+      <a href='http://alwaysthejourney.com/2018/03/18/always-the-journey-podcast-episode-5/' target="_blank">
+        <div className='news-detail-container'>
+          <div className='news-container-padding'>
+            <div className='podcast-author'>Jen Greyson</div>
+            <div className='podcast-detail-flex'>
+              <img className='social-icons' src={require( '../images/icons/headphone.svg')} fill="white" alt="reddit" />
+              <div className='podcast-title'>Always the Journey Podcast Episode No. 5</div>
+            </div>
+            <div className='learn-more-container'>
+            </div>
+          </div>
+        </div>
+      </a>
+    </div>
+  </div>
+</div>
+
+
+
+</div>
+<div className='video-column'>
   <h2 className='news-header'>Media</h2>
 
   <div className="flex-video-grid">
     <div className='media-container'>
-      <video className='video-neureal' controls>
-        <source src="https://cdn.biteable.com/3b/a9/5858609/4937775_3ba9fb46dab22093a314d809d3d30eaa5ca22956.mp4" poster="https://cdn.biteable.com/3b/a9/5858609/4937775_3ba9fb46dab22093a314d809d3d30eaa5ca22956-poster-large.jpg" id="vjs_video_3_html5_api" type="video/mp4" /> Your browser does not support the video tag.
-      </video>
+    <iframe width="100%" height="260px" src="https://www.youtube-nocookie.com/embed/bZwM3hvspBw?rel=0&amp;controls=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
     </div>
 
     <div className='media-container'>
-      <video className='video-neureal' controls>
-        <source src="https://www.youtube.com/watch?v=pmpJKYL_nSk" type="video/mp4" /> Your browser does not support the video tag.
-      </video>
-    </div>
-
-    <div className='media-container'>
-      <video className='video-neureal' controls>
-        <source src="https://biteable.com/watch/limitless_long-1691250/3ba9fb46dab22093a314d809d3d30eaa5ca22956" type="video/mp4" /> Your browser does not support the video tag.
-      </video>
+      <iframe width="100%" height="260px" src="https://www.youtube-nocookie.com/embed/beG8k1GNdws?rel=0&amp;controls=0" frameborder="0"
+        allow="autoplay; encrypted-media" allowfullscreen></iframe>
     </div>
   </div>
-  </div> */}
+</div>
 </div>
     )
   }

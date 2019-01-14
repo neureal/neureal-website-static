@@ -19,6 +19,8 @@ export default class BlogPost6 extends Component {
       <div className='column__post'>
         <div className='image-blog-container'>
           <img className='img-main-blog' src="https://image.ibb.co/dwofPn/Round_1_Blogs_06.png" alt="blog post" />
+      <div className='author-name-detail'>Eric Nease</div>
+            <div className='author-date-posted-detail'>April 18, 2018</div>
         </div>
       </div>
       <div className='title-blog'>How to Tell if Your AI + Blockchain Start Up is Doing It Right</div>
@@ -150,8 +152,8 @@ export default class BlogPost6 extends Component {
         that they may come than to fund it and hope it works.
         <br/>
         <br/> Don’t forget to follow us on Telegram:
-        <a className='link-underline' href=" https://t.me/joinchat/C8JtFgzGzcsN_tjxoYBH1A"
-          data-href=" https://t.me/joinchat/C8JtFgzGzcsN_tjxoYBH1A"> https://t.me/joinchat/C8JtFgzGzcsN_tjxoYBH1A</a>
+        <a className='link-underline' href=" https://t.me/joinchat/C8JtFkMMkD3nbZY_MMPAaA"
+          data-href=" https://t.me/joinchat/C8JtFkMMkD3nbZY_MMPAaA"> https://t.me/joinchat/C8JtFkMMkD3nbZY_MMPAaA</a>
         <div className='creator-blog'>
         </div>
       </div>

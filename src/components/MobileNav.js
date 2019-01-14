@@ -111,7 +111,7 @@ export default class MobileNav extends Component {
               alt="youtube"
              />
               </a>
-             <a href="https://t.me/joinchat/C8JtFgzGzcsN_tjxoYBH1A" target="_blank">
+             <a href="https://t.me/joinchat/C8JtFkMMkD3nbZY_MMPAaA" target="_blank">
              <img 
              className='telegram-icon-mobile' 
              src={require( '../images/icons8-telegram-app-512.png')}

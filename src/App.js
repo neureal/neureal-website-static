@@ -23,6 +23,8 @@ import BlogPost8 from './components/posts/BlogPost8';
 import BlogPost9 from './components/posts/BlogPost9';
 import BlogPost10 from './components/posts/BlogPost10';
 import BlogPost11 from './components/posts/BlogPost11';
+import BlogPost12 from './components/posts/BlogPost12';
+import BlogPost13 from './components/posts/BlogPost13';
 class App extends Component {
   render () {
     return (
@@ -51,6 +53,8 @@ class App extends Component {
           <Route component={ BlogPost9 } path="/neureal-vitalik" />
           <Route component={ BlogPost10 } path="/how-crypto-is-changing" />
           <Route component={ BlogPost11 } path="/blockchain-5-years" />
+          <Route component={ BlogPost12 } path="/eden-has-no-walls" />
+          <Route component={ BlogPost13 } path="/living-with-artificial-intelligence" />
         </Switch>
       </div>
     </div>

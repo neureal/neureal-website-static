@@ -113,7 +113,7 @@ export default class BlogPost1 extends Component {
         <br/>
         <br/> To see how blockchain is impacting AI and supercomputing, join our Telegram:
         <br/> Link:
-        <a className='link-underline' href=" https://t.me/joinchat/C8JtFgzGzcsN_tjxoYBH1A" data-href=" https://t.me/joinchat/C8JtFgzGzcsN_tjxoYBH1A">https://t.me/joinchat/C8JtFgzGzcsN_tjxoYBH1A</a>
+        <a className='link-underline' href=" https://t.me/joinchat/C8JtFkMMkD3nbZY_MMPAaA" data-href=" https://t.me/joinchat/C8JtFkMMkD3nbZY_MMPAaA">https://t.me/joinchat/C8JtFkMMkD3nbZY_MMPAaA</a>
         <br/>
 
       </div>

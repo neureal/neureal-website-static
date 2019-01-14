@@ -13,7 +13,7 @@ export default class HomePage extends Component {
             <div className="column column__one-third">
                 <h1 className="content__title">What is Neureal?</h1>
                 <p className="content__paragraph">
-                    A limitless and infinitely scalable ability to forecast the future.
+                    A limitless ability to see the future.
                     <br/>
                     <br/> That may seem a wild boast, but the nascent technologies of blockchain and end-to-end learning truly
                     gives rise to endless possibilities that can be applied across nearly every industry, from NOAA to Lyft.
@@ -22,12 +22,12 @@ export default class HomePage extends Component {
                     accurately enough for companies like Lyft to adjust actions and add to their bottom line. From complicated
                     to simple, Neureal’s impact is far-reaching.</p>
                 <div className='home-button-flex'>
-                    <a href='https://drive.google.com/file/d/1foF_O3EBGk6h6tCCx9NPZuUhNUmGLpMv/view?usp=drivesdk' target="_blank">
+                    <a href='https://docs.google.com/document/d/1kOJx7clG2V4TevhgwndRDievXpVaAciPzjmqGxI0CtA/view' target="_blank">
                         <div className="learn-more-button">
                             <div className='learn-more'>WHITEPAPER</div>
                         </div>
                     </a>
-                    <a href='https://drive.google.com/file/d/1GGL177_u3zs4nfQYbLpjhVGLSy9G0lLM/view?usp=sharing' target="_blank">
+                    <a href='https://drive.google.com/file/d/1GGL177_u3zs4nfQYbLpjhVGLSy9G0lLM/view' target="_blank">
                         <div className="roadmap-button">
                             <div className='road-map'>ROADMAP</div>
                         </div>
@@ -108,19 +108,25 @@ export default class HomePage extends Component {
         </div>
 
         <div className='column'>
-            <h1 className="as-seen-caption">As seen in</h1>
+            <h1 className="as-seen-caption">As Seen In</h1>
 
             <div className='as-seen-container'>
-                <img className='as-seen-image' src={require( '../images/medium_compressor.png')} alt="team" />
-                <img className='as-seen-image' src={require( '../images/bitcoin_compressor.png')} alt="team" />
-                <img className='as-seen-image' src={require( '../images/usa_weekly_compressor.jpg')} alt="team" />
-                <img className='as-seen-image' src={require( '../images/steemit_compressor.png')} alt="team" />
-                <img className='as-seen-image' src={require( '../images/chippin_compressor.png')} alt="team" />
-                <img className='as-seen-image' src={require( '../images/cointele_compressor.png')} alt="team" />
-                <img className='as-seen-image' src={require( '../images/value_compressor.png')} alt="team" />
-                <img className='as-seen-image' src={require( '../images/future_compressor.jpg')} alt="team" />
-                <img className='as-seen-image' src={require( '../images/decentral_market_compressor.png')} alt="team" />
-                <img className='as-seen-image' src={require( '../images/cryptoknight_compressor.jpg')} alt="team" />
+                <img className='as-seen-image' src={require( '../images/medium_compressor.png')} alt="Medium" />
+                <img className='as-seen-image' src={require( '../images/bitcoin_compressor.png')} alt="Bitcoin.com" />
+                <img className='as-seen-image' src={require( '../images/usa_weekly_compressor.jpg')} alt="USA Weekly" />
+                <img className='as-seen-image' src={require( '../images/steemit_compressor.png')} alt="Steemit" />
+                <img className='as-seen-image' src={require( '../images/chippin_compressor.png')} alt="Chipin" />
+                <img className='as-seen-image' src={require( '../images/cointele_compressor.png')} alt="Cointelegraph" />
+                <img className='as-seen-image' src={require( '../images/value_compressor.png')} alt="ValueWalk" />
+                <img className='as-seen-image' src={require( '../images/future_compressor.jpg')} alt="FutureTech" />
+                <img className='as-seen-image' src={require( '../images/decentral_market_compressor.png')} alt="DecentralMarket" />
+                <img className='as-seen-image' src={require( '../images/cryptoknight_compressor.jpg')} alt="CryptoKnights" />
+            </div>
+            <h1 className="as-seen-caption">Partners</h1>
+
+            <div className='as-seen-container'>
+                <a href="https://scienceblockchains.com/" target="_blank"><img className='as-seen-image' src={require( '../images/scienceb_compressor.jpg')} alt="ScienceBlockchains" /></a>
+                <a href="https://maddevs.io/" target="_blank"><img className='as-seen-image' src={require( '../images/maddevs_compressor.png')} alt="MadDevs" /></a>
             </div>
         </div>
         <div className="grid">

@@ -56,8 +56,8 @@ export default class BlogPost9 extends Component {
         be one of the 2% who will still be around long after their token generation event.
 
         <br/> Don’t forget to follow us on Telegram:
-        <a className='link-underline' href=" https://t.me/joinchat/C8JtFgzGzcsN_tjxoYBH1A" data-href=" https://t.me/joinchat/C8JtFgzGzcsN_tjxoYBH1A">
-           https://t.me/joinchat/C8JtFgzGzcsN_tjxoYBH1A</a>
+        <a className='link-underline' href=" https://t.me/joinchat/C8JtFkMMkD3nbZY_MMPAaA" data-href=" https://t.me/joinchat/C8JtFkMMkD3nbZY_MMPAaA">
+           https://t.me/joinchat/C8JtFkMMkD3nbZY_MMPAaA</a>
 
         <div className='creator-blog'>
         </div>

@@ -131,8 +131,8 @@ export default class BlogPost5 extends Component {
         with managing your tokens in the wide world of crypto.
         <br/>
         <br/> Don’t forget to follow us on Telegram:
-        <a className='link-underline' href=" https://t.me/joinchat/C8JtFgzGzcsN_tjxoYBH1A"
-          data-href=" https://t.me/joinchat/C8JtFgzGzcsN_tjxoYBH1A"> https://t.me/joinchat/C8JtFgzGzcsN_tjxoYBH1A</a>
+        <a className='link-underline' href=" https://t.me/joinchat/C8JtFkMMkD3nbZY_MMPAaA"
+          data-href=" https://t.me/joinchat/C8JtFkMMkD3nbZY_MMPAaA"> https://t.me/joinchat/C8JtFkMMkD3nbZY_MMPAaA</a>
         <div className='creator-blog'>
         </div>
       </div>

@@ -11,25 +11,28 @@ state = {
 
     return (
 <div className='email-form-flex'>
-  <form action="https://neureal.us17.list-manage.com/subscribe/post" method="POST" noValidate>
+  <form action="https://sendy.neureal.world/subscribe" method="POST" accept-charset="utf-8">
     <div className='join'>Join our community</div>
-    <input type="hidden" name="u" value="f8e938b21af569b682acfb96a" />
-    <input type="hidden" name="id" value="f47cd5d841" />
-    <label htmlFor='MERGE0'>
-      <input className='subscribe-input' placeholder="Email" type="email" name="EMAIL" id="MERGE0" value={this.state.emailValue}
-        onChange={ (e)=> { this.setState({emailValue: e.target.value});     console.log(e.target.value); } } autoCapitalize="off" autoCorrect="off" />
+
+    <label htmlFor='email'>
+      <input className='subscribe-input' placeholder="Email" type="email" name="email" id="email" autoCapitalize="off" autoCorrect="off" />
     </label>
-    <label htmlFor='MERGE1'>
-      <input className='subscribe-input' placeholder="First Name" type="text" name="FNAME" id="MERGE1" value={this.state.fNameValue}
-        onChange={ (e)=> { this.setState({fNameValue: e.target.value}); } } />
+    <label htmlFor='name'>
+      <input className='subscribe-input' placeholder="Full Name" type="text" name="name" id="name" />
     </label>
-    <label htmlFor='MERGE2'>
-      <input className='subscribe-input' placeholder="Last Name" type="text" name="LNAME" id="MERGE2" value={this.state.lNameValue}
-        onChange={ (e)=> { this.setState({lNameValue: e.target.value}); } } />
-    </label>
+
+    <div style={{display: 'none'}}>
+    <label for="hp">HP</label><br/>
+    <input type="text" name="hp" id="hp"/>
+    </div>
+
+    <input type="hidden" name="list" value="w892tkpPCExvO5iMBR13vBCQ"/>
+    <input type="hidden" name="subform" value="yes"/>
+    
     <div className='subscribe-button'>
-      <input className='subscribe-text' type="submit" value="Subscribe Now" name="subscribe" id="mc-embedded-subscribe" className="button" />
+      <input className='subscribe-text' type="submit" value="Subscribe Now" name="submit" id="submit" className="button" />
     </div>
   </form>
+  
 </div>
 ) } }

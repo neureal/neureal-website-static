@@ -1,6 +1,6 @@
 import React, { Component } from 'react'; 
 
-export default class BlogPost9 extends Component { 
+export default class BlogPost10 extends Component { 
   render() { 
     return (
 <div>
@@ -65,13 +65,13 @@ export default class BlogPost9 extends Component {
         <br/>
         <br/> Spreadsheet of figures here:
         <br/>
-        <a className='link-underline' href="https://docs.google.com/spreadsheets/d/1tuxyFdWWerddt7gZnCXixsj-eVh1SXrm0uiPrnfupM0/edit?usp=sharing"
-          data-href="https://docs.google.com/spreadsheets/d/1tuxyFdWWerddt7gZnCXixsj-eVh1SXrm0uiPrnfupM0/edit?usp=sharing">
-          https://docs.google.com/spreadsheets/d/1tuxyFdWWerddt7gZnCXixsj-eVh1SXrm0uiPrnfupM0/edit?usp=sharing</a>
+        <a className='link-underline' href="https://docs.google.com/spreadsheets/d/1tuxyFdWWerddt7gZnCXixsj-eVh1SXrm0uiPrnfupM0/view"
+          data-href="https://docs.google.com/spreadsheets/d/1tuxyFdWWerddt7gZnCXixsj-eVh1SXrm0uiPrnfupM0/view">
+          https://docs.google.com/spreadsheets/d/1tuxyFdWWerddt7gZnCXixsj-eVh1SXrm0uiPrnfupM0/view</a>
         <br/>
         <br/> Don’t forget to follow us on Telegram:
-        <a className='link-underline' href=" https://t.me/joinchat/C8JtFgzGzcsN_tjxoYBH1A" data-href=" https://t.me/joinchat/C8JtFgzGzcsN_tjxoYBH1A">
-          https://t.me/joinchat/C8JtFgzGzcsN_tjxoYBH1A</a>
+        <a className='link-underline' href=" https://t.me/joinchat/C8JtFkMMkD3nbZY_MMPAaA" data-href=" https://t.me/joinchat/C8JtFkMMkD3nbZY_MMPAaA">
+          https://t.me/joinchat/C8JtFkMMkD3nbZY_MMPAaA</a>
 
         <div className='creator-blog'>
         </div>

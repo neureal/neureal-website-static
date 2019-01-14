@@ -1,6 +1,6 @@
 import React, { Component } from 'react'; 
 
-export default class BlogPost9 extends Component { 
+export default class BlogPost11 extends Component { 
   render() { 
     return (
 <div>
@@ -43,8 +43,8 @@ export default class BlogPost9 extends Component {
         <br/> #womenintech #AI #VR #AR #womenofblockchain #artificialintelligence #crypto #blockchain #bitcoin #crypto
         <br/>
         <br/> Don’t forget to follow us on Telegram:
-        <a className='link-underline' href=" https://t.me/joinchat/C8JtFgzGzcsN_tjxoYBH1A" data-href=" https://t.me/joinchat/C8JtFgzGzcsN_tjxoYBH1A">
-          https://t.me/joinchat/C8JtFgzGzcsN_tjxoYBH1A</a>
+        <a className='link-underline' href=" https://t.me/joinchat/C8JtFkMMkD3nbZY_MMPAaA" data-href=" https://t.me/joinchat/C8JtFkMMkD3nbZY_MMPAaA">
+          https://t.me/joinchat/C8JtFkMMkD3nbZY_MMPAaA</a>
 
         <div className='creator-blog'>
         </div>
