@@ -125,8 +125,9 @@ export default class HomePage extends Component {
             <h1 className="as-seen-caption">Partners</h1>
 
             <div className='as-seen-container'>
-                <a href="https://scienceblockchains.com/" target="_blank"><img className='as-seen-image' src={require( '../images/scienceb_compressor.jpg')} alt="ScienceBlockchains" /></a>
-                <a href="https://maddevs.io/" target="_blank"><img className='as-seen-image' src={require( '../images/maddevs_compressor.png')} alt="MadDevs" /></a>
+                <a href="https://daia.foundation/" target="_blank"><img className='as-seen-image' src={require( '../images/daia_compressor.png')} alt="DAIA Foundation" /></a>
+                <a href="https://scienceblockchains.com/" target="_blank"><img className='as-seen-image' src={require( '../images/scienceb_compressor.jpg')} alt="Science Blockchains" /></a>
+                <a href="https://maddevs.io/" target="_blank"><img className='as-seen-image' src={require( '../images/maddevs_compressor.png')} alt="Mad Devs" /></a>
             </div>
         </div>
         <div className="grid">
