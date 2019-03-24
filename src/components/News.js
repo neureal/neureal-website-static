@@ -9,6 +9,12 @@ export default class News extends Component {
     <div className='news-column'>
       <h2 className='news-header'>News</h2>
       <NewsPost 
+      newsLink={"https://www.livetiles.nyc/top-ai-blockchain-projects"}
+      newsImage={"https://2tlwr3br2esddpvs3dm7p89c-wpengine.netdna-ssl.com/wp-content/uploads/2019/03/LiveTiles-Blockchain-Infographic-Final-2.jpg"}
+      newsTitle={"The Projects Harnessing AI and Blockchain That You Need To Know About"}
+      newsCaption={"2019 is set to be the year people truly embrace the combination of AI and blockchain to take their businesses even further"}
+      />
+      <NewsPost 
       newsLink={"https://medium.com/@Francesco_AI/the-convergence-of-ai-and-blockchain-whats-the-deal-60c618e3accc"}
       newsImage={"https://cdn-images-1.medium.com/max/2000/1*xJ9uihFO6wBW5RfyEVbuEQ.jpeg"}
       newsTitle={"The convergence of AI and Blockchain: what’s the deal?"}
@@ -16,7 +22,7 @@ export default class News extends Component {
       />
       <NewsPost 
       newsLink={"https://cointelegraph.com/news/neureal-bringing-artificial-intelligence-to-the-people?utm_content=bufferae0b9&utm_medium=social&utm_source=facebook.com&utm_campaign=buffer"}
-      newsImage={"https://cointelegraph.com/images/725_Ly9jb2ludGVsZWdyYXBoLmNvbS9zdG9yYWdlL3VwbG9hZHMvdmlldy9kM2Q3YzgzNzIxZjdmODNiMDMxOTNlZWI2Y2JjMWUzMS5wbmc=.jpg"}
+      newsImage={"https://images.cointelegraph.com/images/740_Ly9jb2ludGVsZWdyYXBoLmNvbS9zdG9yYWdlL3VwbG9hZHMvdmlldy9kM2Q3YzgzNzIxZjdmODNiMDMxOTNlZWI2Y2JjMWUzMS5wbmc=.png"}
       newsTitle={"Иeureal: Bringing Artificial Intelligence to the People"}
       newsCaption={"Иeureal is the first decentralized open-source protocol designed to produce a distributed artificial intelligence (AI) architecture that is incentivized, maintained and housed"}
       />
